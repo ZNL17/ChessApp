@@ -34,8 +34,8 @@ ChessApp/
 ```bash
 git clone https://github.com/your-username/TerminalChess.git
 cd TerminalChess
-python -m venv env_TerminalChess
-.\env_TerminalChess\Scripts\Activate.ps1  # For PowerShell
+python -m venv env_ChessApp
+.\env_ChessApp\Scripts\Activate.ps1  # For PowerShell
 pip install -r requirements.txt
 ```
 
@@ -58,4 +58,4 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## 🙋 Author
 
 **Ziyul**  
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: [@ZNL17](https://github.com/ZNL17)
