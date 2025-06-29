@@ -1,13 +1,13 @@
-# 🧠 TerminalChess
+# 🧠 PythonChess
 
 A simple terminal-based chess game written in Python.
 
 ## 📁 Project Structure
 
 ```
-TerminalChess/
+ChessApp/
 │
-├── env_TerminalChess/       # Virtual environment (excluded from Git)
+├── env_ChessApp/       # Virtual environment (excluded from Git)
 ├── src/                     # Source code
 │   ├── game.py              # Main game logic
 │   └── board.py             # Board rendering and rules
