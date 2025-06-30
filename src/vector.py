@@ -6,7 +6,10 @@ class Vector:
         self.v = np.array(values)
 
     def __add__(self, other):
-        return Vector(self.v, other.v)
+        return self.v + other.v
+
+    def __sub__(self, other):
+        return self.v - other.v
 
     def dot(self, other):
         return np.dot(self.v, other.v)
@@ -16,3 +19,10 @@ class Vector:
 
     def __repr__(self):
         return f"Vector({self.v})"
+
+
+a = Vector([2, 2])
+b = Vector([2, 4])
+c = b - a
+
+print(c.tolist().count(0)%2)
